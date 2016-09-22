@@ -1,30 +1,52 @@
- @import "bootstrap-sprockets";
- @import "bootstrap";
+@import "bootstrap-sprockets";
+@import "bootstrap";
 
- body {
-   background: url('graham.jpg');
-   background-repeat: repeat;
-   font-size: 20px;
- }
+body {
+  background: url('graham_nortons.jpg');
+  background-repeat: repeat;
+  font-size: 20px;
+}
 
- h1 {
-   text-align: center;
-   color: white;
-   margin: 30px;
-   font-size: 2em;
- }
+h1 {
+  text-align: center;
+  color: white;
+  margin: 30px;
+  font-size: 2em;
+}
 .question-div {
- margin-top: 10px;
- padding: 30px;
- border: solid 2px black;
- background-color: white;
+  margin-top: 10px;
+  padding: 30px;
+  border: solid 2px black;
+  background-color: white;
 }
 
 .selected-option {
-  background: url('graham2.jpg');
+  background: url('would_you_rather.jpg');
   background-position: center;
   background-size: cover;
   height: 100px;
   color: white;
-  padding: 10px
+  padding: 10px;
+}
+
+.alert, .notice {
+  color: white;
+}
+
+.paginate {
+  background-color: white;
+  display: inline-block;
+  padding: 5px;
+  border: black solid 2px;
+  margin-bottom: 20px;
+}
+
+nav.pagination {
+  margin: 0;
+}
+
+.all-comments {
+  background-color: white;
+  border: solid 2px black;
+  padding: 10px;
 }

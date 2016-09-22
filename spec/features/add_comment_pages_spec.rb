@@ -11,4 +11,4 @@ describe 'the add comments path' do
     expect(page).to have_content 'Stephanie said...'
     expect(page).to have_no_content 'Username'
   end
-end
+end 
